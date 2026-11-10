@@ -1,0 +1,18 @@
+1. ¿Para qué sirve import requests ?
+    para hacer peticiones HTTP
+2. ¿Qué tipo de objeto es parametros ?
+    es una biblioteca
+3. ¿Qué diferencia hay entre url y parametros ?
+    que la url es una API en JSON y parametro es un diccionario
+4. ¿Qué hacen timeout=30 y raise_for_status() ?
+    timeout es el tiempo que se tiene para que llegue la peticion del servidor
+    raise_for_status una expecion si la peticion http hay un fallo
+5. ¿Qué diferencia hay entre respuesta y datos ?
+    que la respuesta se muestra en objetos python mientras que los datso son la respuesta pero transformados a json
+6. ¿Qué podría ocurrir si falla la conexión o el servidor devuelve un error?
+
+7. ¿Por qué separamos los parámetros de la dirección URL?
+    para meter nosostros mismos la informacion que falta
+8. ¿En qué se diferencia una petición GET de una petición POST?
+    la peticion get es para visualizar lo que contiene una API
+    el metodo post es para añadir cosas a esa API
