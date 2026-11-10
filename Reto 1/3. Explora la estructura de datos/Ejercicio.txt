@@ -1,0 +1,24 @@
+1. ¿Qué valores tienen las claves latitude y longitude ?
+    latitude 37.785587
+    longitude -3.7349243
+2. ¿Qué claves contiene diarios ?
+    temperature_2m_mean,temperature_2m_max,temperature_2m_min
+3. ¿Qué unidades se utilizan para la temperatura?
+    Cº
+4. ¿Qué tipos de dato devuelven type(datos['daily']) , type(datos['daily']['time']) y 
+    type(datos['daily']["temperature_2m_mean"]) ?
+    dict_keys
+5. ¿Cuántas fechas y temperaturas has obtenido?
+    31
+6. Comprueba que las listas de fechas, temperaturas medias, máximas y mínimas tienen la misma
+    longitud. ¿Por qué deben coincidir?
+    273.5 la media
+    14.8 la maxima
+    4.3 la minima
+7. Muestra la primera fecha, la temperatura media del primer día y la máxima del último.
+    7.1
+    10.5
+8. ¿Qué sucede si intentas acceder a una posición que no existe?
+    IndexError: list index out of range
+9. ¿Cómo comprobarías si una clave está presente antes de utilizarla?
+    buscando la key 
