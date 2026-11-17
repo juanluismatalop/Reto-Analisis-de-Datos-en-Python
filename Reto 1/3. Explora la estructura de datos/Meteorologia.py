@@ -14,10 +14,3 @@ parametros = {
 respuesta = requests.get(url, params=parametros, timeout=30)
 respuesta.raise_for_status()
 datos = respuesta.json()
-
-print(datos.keys())
-print(datos['daily'].keys())
-print(type(datos['daily'].keys()))
-print(min(datos['daily']['temperature_2m_mean']))
-
-print(datos['daily']['temperature_2m_max'][33])
